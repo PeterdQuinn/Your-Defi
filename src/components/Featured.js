@@ -30,9 +30,6 @@ const Featured = () => {
                     <p>See all available assets: Cryptocurrencies and NFT's</p>
                     <button className='btn'>See More Coins</button>
                 </div>
-
-                
-
                 <div className='right'>
                     <div className='card'>
                         <div className='top'>
