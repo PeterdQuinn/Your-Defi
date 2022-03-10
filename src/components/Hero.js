@@ -1,5 +1,7 @@
 import React from 'react'
 import './Hero.css'
+import Crypto from '../assests/Cryto.jpg'
+
 
 export const Hero = () => {
   return (
@@ -12,13 +14,13 @@ export const Hero = () => {
              <div className='input-container'>
                   <input type='email' placeholder='Enter your email'>
                    <button className='btn'>Learn More</button>   
-                    
-                    </input>      
+                </input>      
             </div>
-
         </div>   
            <div className='right'>
-
+                <div className='img-container'>
+                    <img src {Crypto} alt=''/>
+                    </div>    
             </div> 
 
 
