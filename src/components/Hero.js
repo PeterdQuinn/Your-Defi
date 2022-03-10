@@ -19,7 +19,7 @@ export const Hero = () => {
         </div>   
            <div className='right'>
                 <div className='img-container'>
-                    <img src {Crypto} alt=''/>
+                    <img src ={Crypto} alt=''/>
                     </div>    
             </div> 
 
