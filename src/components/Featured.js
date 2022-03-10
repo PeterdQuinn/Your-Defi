@@ -17,26 +17,26 @@ const Featured = () => {
         })
     }, [])
 
-    // console.log(data)
+     console.log(data)
 
     if (!data) return null
 
     return (
         <div className='featured'>
             <div className='container'>
-                {/* Left */}
+                
                 <div className='left'>
                     <h2>Explore top Crypto's Like Bitcoin, Ethereum, and Dogecoin</h2>
                     <p>See all available assets: Cryptocurrencies and NFT's</p>
                     <button className='btn'>See More Coins</button>
                 </div>
 
-                {/* Right */}
+                
 
                 <div className='right'>
                     <div className='card'>
                         <div className='top'>
-                            {/* <img src={BTC} alt='/' /> */}
+                            
                             <img src={data[0].image} alt='' />
                         </div>
                         <div>
